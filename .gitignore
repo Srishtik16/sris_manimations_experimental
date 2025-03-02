@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Manim Files
+
+media/Tex
+media/videos/main/480p15/partial_movie_files/
