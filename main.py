@@ -1,10 +1,26 @@
 from manim import *
-from Array import CreateArray
+from CustomArray import CreateArray
+from BinarySearch import BinarySearchAnimation
+import os
 
 
-class MainScene(CreateArray):
+class MainScene(BinarySearchAnimation):
     def __init__(self, **kwargs):
-        super().__init__([1, 2, 3, 4, 5, 6], **kwargs)  # Define an array
+        # Get array and search key from environment variables
+        array_str = os.getenv('ARRAY', '6,2,7,1,3,8,4')
+        search_key = int(os.getenv('KEY', '3'))  # Default search key is 3
+        
+        try:
+            elements = [int(x.strip()) for x in array_str.split(',')]
+        except ValueError:
+            print("Error: Please provide numbers separated by commas (e.g., '6,2,7,1,3,8,4')")
+            elements = [6,2,7,1,3,8,4]  # fallback to default
+            
+        super().__init__(elements, search_key, **kwargs)
+
+    def construct(self):
+        super().construct()
+
 
 if __name__ == "__main__":
     scene = MainScene()
