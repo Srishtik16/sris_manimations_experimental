@@ -26,6 +26,10 @@ class MaximumSubarrayAnimation(IntroScene, VisualizationScene, KadaneInitScene, 
         super().__init__(**kwargs)
 
     def construct(self):
+
+        # Add audio track for the entire video
+        self.add_sound("media/fractals3b1b.mpeg")
+
         # Clear the scene between each part
         IntroScene.construct(self)
         self.clear()

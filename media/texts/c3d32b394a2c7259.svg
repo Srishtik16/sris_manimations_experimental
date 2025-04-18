@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854" height="480" viewBox="0 0 854 480">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
 <defs>
 <g>
 <g id="glyph-0-0">
@@ -54,9 +54,9 @@
 <path d="M 3.566406 -1.242188 L 3.566406 -0.785156 L 0.199219 -0.785156 L 0.199219 -1.242188 Z M 3.566406 -2.585938 L 3.566406 -2.128906 L 0.199219 -2.128906 L 0.199219 -2.585938 Z "/>
 </g>
 </g>
-<image id="source-49" x="0" y="0" width="0" height="0"/>
+<image id="source-313" x="0" y="0" width="0" height="0"/>
 <mask id="mask-0">
-<use xlink:href="#source-49"/>
+<use xlink:href="#source-313"/>
 </mask>
 </defs>
 <g fill="rgb(100%, 100%, 100%)" fill-opacity="1">
